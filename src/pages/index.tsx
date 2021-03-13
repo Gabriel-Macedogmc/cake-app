@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import styled from 'styled-components'
+import Head from "next/head";
+import styled from "styled-components";
 
 const Container = styled.div`
   background: "#212121";
-`
+`;
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
         <h1>wowo</h1>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-  export default Home
+export default Home;

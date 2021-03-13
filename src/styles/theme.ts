@@ -1,8 +1,8 @@
 const theme = {
   colors: {
-    background: '#fff',
-    text: '#212121',
-  }
-}
+    background: "#fff",
+    text: "#212121",
+  },
+};
 
-export default theme
+export default theme;
