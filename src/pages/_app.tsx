@@ -5,10 +5,14 @@ import { ThemeProvider } from "styled-components";
 import GlobalStyle from "../styles/global";
 import theme from "../styles/theme";
 
+import { ChakraProvider } from "@chakra-ui/react";
+
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <ThemeProvider theme={theme}>
-      <Component {...pageProps} />
+      <ChakraProvider>
+        <Component {...pageProps} />
+      </ChakraProvider>
       <GlobalStyle />
     </ThemeProvider>
   );
